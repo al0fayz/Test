@@ -26,6 +26,7 @@ Route::middleware('auth:api')->group(function() {
             '/blogCategory'     => 'Api\User\BlogCategoryController',
             '/member'           => 'Api\User\UserController',
             '/category'           => 'Api\User\CategoryController',
+            '/product'           => 'Api\User\ProductController',
         ]);
     });
 });

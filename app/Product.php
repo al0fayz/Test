@@ -10,6 +10,6 @@ class Product extends Model
     protected $guard = [];
 
     public function category(){
-        return $this->hasOne(CategoryProduct::class, 'category_id');
+        return $this->hasOne(CategoryProduct::class, 'id','category_id');
     }
 }

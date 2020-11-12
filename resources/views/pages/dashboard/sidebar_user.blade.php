@@ -70,6 +70,14 @@
               </p>
             </router-link>
           </li>
+          <li class="nav-item">
+            <router-link to="/user/product" class="nav-link">
+            <i class="nav-icon fas fa-coins blue"></i>
+              <p>
+              Product
+              </p>
+            </router-link>
+          </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
