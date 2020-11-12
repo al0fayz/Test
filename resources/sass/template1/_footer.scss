@@ -1,0 +1,41 @@
+.site-footer{
+    background: transparent;
+    text-align: center;
+    height: 50px;
+    padding: 10px 0px;
+
+    &.footer-info{
+        background-color: $info-color;
+    }
+
+    &.footer-success{
+        background-color: $success-color;
+    }
+    &.footer-primary{
+        background-color: $primary-color;
+    }
+    &.footer-warning{
+        background-color: $warning-color;
+    }
+    &.footer-danger{
+        background-color: $danger-color;
+    }
+    &.footer-default{
+        background-color: default-color;
+    }
+    &.footer-new{
+        background-color: #ED3237;
+    }
+    strong{
+        color: $white-color;
+        a{
+            color: $white-color;
+
+            &:hover{
+                color: $black-color;
+                font-style: bold;
+            }
+        }
+        
+    }
+}

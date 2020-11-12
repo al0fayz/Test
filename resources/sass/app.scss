@@ -1,0 +1,59 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+//date picker 
+@import '~vue2-datepicker/scss/index.scss';
+
+//summernote
+@import '~summernote/dist/summernote.css';
+
+//blog template1
+@import './template1/template1.scss';
+
+//profile template2 
+// @import './template2/style.scss';
+
+//emoji
+@import '~emojionearea/dist/emojionearea.min.css';
+
+//add scss for blog list in user dashboard
+.card-body{
+    .img-card-list{
+      position: relative;
+      margin: auto;
+      overflow: hidden;
+      border-radius: 5px 5px 5px 5px;
+      height: 200px;
+      background-color: #6c757d;
+
+      .img-blog-list{
+        width: 100%;
+        border-radius: 5px 5px 5px 5px;
+        -webkit-transition: all .8s;
+        transition: all .8s;
+      }
+      p{
+        &.img-aliases{
+          font-size: 30px;
+          text-align: center;
+          font-weight: bold;
+          color: #1fa380;
+          top: 50%;
+          left: 50%;
+          position: absolute;
+          transform: translate(-50%, -50%);
+          line-height: 1.25;
+        }
+      }
+    }
+  }

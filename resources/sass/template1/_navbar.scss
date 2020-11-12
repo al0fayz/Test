@@ -1,0 +1,147 @@
+ header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    font-weight: 400;
+    background: #fff !important;
+    min-height: 53px;
+
+    .top-bar {
+        background: #ED3237;
+        padding: 10px 0; 
+        .social a, .search-icon a {
+            color: #fff;
+            opacity: .5;
+            padding: 5px; 
+            // font-size: 20px;
+            i{
+                font-size: 18px;
+            }
+        }
+        .social a:hover, .search-icon a:hover {
+            opacity: 1; 
+        }
+        .social {
+            text-align: left; 
+        }
+        .search-icon {
+            text-align: right; 
+        }
+
+    }
+    .container{
+        .justify-content-center{
+            background-color: #f8f9fa;
+
+            .navbar{
+                .navbar-nav{
+                    a{
+                        font-weight: bold;
+                        font-size: 18px;
+
+                        &:hover{
+                            color: #FF3636;
+                        }
+                    }
+                }
+            }
+        }
+    }
+ }
+ .wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    -webkit-box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
+}
+.search-top .search-top-form {
+    position: relative;
+    float: right;
+
+    input{
+        background-color: transparent;
+        border: 1px solid #E3E3E3;
+        border-radius: 30px;
+        color: #2c2c2c;
+        height: auto;
+        // line-height: normal;
+        // font-size: 0.8571em;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        padding-left: 5px;
+    }
+    span{
+        color: white;
+    }
+}
+.logo-wrap{
+    
+}
+.absolute-toggle {
+    position: absolute;
+    left: 15px;
+    top: 5px; 
+}
+.site-logo a {
+    color: #ED3237;
+    font-size: 50px; 
+    text-decoration: none;
+}
+@media (max-width: 991.98px) {
+    .site-logo a {
+    font-size: 20px; } 
+}
+
+//corousel
+.content-main{
+    .carousel .carousel-inner .carousel-item {
+        height: 500px;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-height: 500px;
+        }
+    }
+    @media (max-width: 991.98px) {
+        .carousel .carousel-inner .carousel-item {
+            height: 300px;
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                min-height: 300px;
+            }
+        }
+    }
+}
+.site-branding{
+    padding: 40px 0;
+    display: flex !important;
+    align-items: center!important;
+    flex-direction: column!important;
+
+    .site-title{
+        font-size: 72px;
+        font-family: 'BeyondTheMountains';
+        a{
+            color: #2f2f2f;
+            text-decoration: none;
+            &:hover{
+                color: #FF3636;
+            }
+        }
+    }
+    .site-description{
+        width: 284px;
+        margin: -5px 0 0;
+        font-size: 10px;
+        letter-spacing: 0.26rem;
+        color: #9d9d9d;
+        text-transform: uppercase;
+        text-align: right;
+    }
+}
