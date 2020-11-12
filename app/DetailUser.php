@@ -12,15 +12,6 @@ class DetailUser extends Model
     protected $table = 'detail_user';
     protected $guard = [];
 
-    protected $attributes = [
-        'organization'      => 'Hacker',
-        'country_id'        => 102,         //indonesia
-        'state'             => 'Jawa Barat',
-        'city'              => 'Tangerang',
-        'street'            => 'Jln Saja deh, no 88 Tangerang Selatan',
-        'postal_code'       => '15345',
-    ];
-
     public function user(){
         return $this->hasOne(User::class, 'id', 'user_id');
     }

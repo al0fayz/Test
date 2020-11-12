@@ -54,6 +54,14 @@
               </p>
             </router-link>
           </li>
+          <li class="nav-item">
+            <router-link to="/user/member" class="nav-link">
+            <i class="nav-icon fas fa-users-cog"></i>
+              <p>
+              User
+              </p>
+            </router-link>
+          </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

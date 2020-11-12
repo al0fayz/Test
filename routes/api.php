@@ -24,6 +24,7 @@ Route::middleware('auth:api')->group(function() {
         Route::apiResources([
             '/blog'             => 'Api\User\BlogController',
             '/blogCategory'     => 'Api\User\BlogCategoryController',
+            '/member'           => 'Api\User\UserController',
         ]);
     });
 });
