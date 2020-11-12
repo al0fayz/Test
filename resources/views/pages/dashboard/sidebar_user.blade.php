@@ -78,6 +78,30 @@
               </p>
             </router-link>
           </li>
+
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-comment-dollar"></i>
+              <p>
+                Transaksi
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview" style="display: none;">
+              <li class="nav-item">
+                <router-link to="/user/transaksiMasuk" class="nav-link">
+                  <i class="nav-icon fas fa-file-invoice-dollar"></i>
+                  <p>Transaksi Masuk</p>
+                </router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to="/user/transaksiKeluar" class="nav-link">
+                  <i class="nav-icon fas fa-dollar-sign"></i>
+                  <p>Transaksi Keluar</p>
+                </router-link>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

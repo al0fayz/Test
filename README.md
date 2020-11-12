@@ -10,3 +10,5 @@
 9. npm run dev
 10. jalankan project dengan php artisan serve
 11. buka browser ketik http://localhost:8000
+login dengan username : admin
+password : abc123
