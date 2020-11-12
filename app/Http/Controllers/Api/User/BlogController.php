@@ -53,7 +53,7 @@ class BlogController extends Controller
     public function store(Request $request)
     {   
         $request->validate([
-            'title'         => ['required', 'string'], // 'regex:/^[a-zA-Z0-9 ]*$/'],
+            'title'         => ['required', 'string', 'regex:/^[a-zA-Z0-9 ]*$/'],
             'file'          => ['required_without:cover', 'nullable'],
             'content'       => ['required', 'string'],
             'category_id'   => ['required'],
