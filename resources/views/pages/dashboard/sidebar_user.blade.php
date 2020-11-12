@@ -62,6 +62,14 @@
               </p>
             </router-link>
           </li>
+          <li class="nav-item">
+            <router-link to="/user/categoryProduct" class="nav-link">
+            <i class="nav-icon fas fa-coins blue"></i>
+              <p>
+              Category Product
+              </p>
+            </router-link>
+          </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

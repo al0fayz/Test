@@ -3,6 +3,7 @@ import BlogCategoryUser from './components/dashboard/user/BlogCategory.vue';
 import BlogUser from './components/dashboard/user/Blog.vue';
 import BlogListUser from './components/dashboard/user/BlogList.vue';
 import Member from './components/dashboard/user/Member.vue';
+import Category from './components/dashboard/user/CategoryProduct';
 
 export const myRoutes = [
     {
@@ -24,5 +25,9 @@ export const myRoutes = [
     {
         path: '/user/member',
         component: Member,
+    },
+    {
+        path: '/user/categoryProduct',
+        component: Category,
     },
 ];
